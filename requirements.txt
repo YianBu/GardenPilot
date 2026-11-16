@@ -1,0 +1,8 @@
+# Runtime dependencies for the standalone weekly garden tool.
+# PySide6 is the Qt binding used by garden_app.py; any 6.x wheel works.
+PySide6>=6.6
+opencv-python==5.0.0.93
+numpy==2.5.2
+pywin32==311
+onnxocr-ppocrv6==0.0.1
+openvino==2026.3.0
